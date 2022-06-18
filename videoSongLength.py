@@ -50,7 +50,8 @@ while True:
     # played is calculated.
     
     time_input_delta = timedelta(
-        hours=input_hours) + timedelta(minutes=input_minutes) + timedelta(seconds=input_seconds)
+        hours=input_hours) + timedelta(minutes=input_minutes) + timedelta(
+            seconds=input_seconds)
     time_input_muliplied_delta = time_input_delta * input_number_played
 
     # (((TODO: I might change the folowing 6 variables with the
