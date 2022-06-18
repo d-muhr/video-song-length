@@ -41,9 +41,10 @@ while True:
     input_seconds = pyip.inputInt(
         min=0, max=59, prompt='number of seconds: >>> ')
 
-    '''
-    The amount of hours, minutes and seconds of the song/video being played is calculated.
-    '''
+    
+    # The amount of hours, minutes and seconds of the song/video being 
+    # played is calculated.
+    
     time_input_delta = timedelta(
         hours=input_hours) + timedelta(minutes=input_minutes) + timedelta(seconds=input_seconds)
     time_input_muliplied_delta = time_input_delta * input_number_played
@@ -58,9 +59,9 @@ while True:
     time_in_weeks = time_input_muliplied_delta / timedelta(weeks=1)
     time_in_years = time_input_muliplied_delta / timedelta(days=365)
 
-    # TODO: For the seconds below it is not really necessary to make use of the "round"-funtion.
-    # The full amount of time the song/video has been played is displayed for
-    # the user.
+    # TODO: For the seconds below it is not really necessary to make use 
+    # of the "round"-funtion. The full amount of time the song/video has 
+    # been played is displayed for the user.
     print(
         "---This video or song has been played for", round(
             time_in_years, 2), "years or", round(
