@@ -1,15 +1,19 @@
 '''
 POTENTIAL TO DOS
--ideally the program would wait 1-3 seconds until it really quits, otherwise the user cannot see the "Thanks for using the program"
+-ideally the program would wait 1-3 seconds until it really quits, 
+otherwise the user cannot see the "Thanks for using the program"
 
-- TODO: some of it might be easier with "dateutil" third-party party library
-https://dateutil.readthedocs.io/en/stable/ which is recommended e.g. on
-https://realpython.com/lessons/date-time-arithmetic/. Especially the following is aussichtsreich:
-"Computing of relative deltas between two given date and/or datetime objects;"
+- TODO: some of it might be easier with "dateutil" third-party party 
+library https://dateutil.readthedocs.io/en/stable/ which is recommended 
+e.g. on https://realpython.com/lessons/date-time-arithmetic/. Especially
+ the following is promising:
+"Computing of relative deltas between two given date and/or datetime 
+objects;"
 
--Calculate Relations (ua wie oft 80-Jähriger gelebt, aber auch andere) (Units do not matter here)_TODO
-Print how long video is watched in appropriate additonal Unit (80-Jähriger), sprich dass_
-die größte Einheit die größer-gleich "bestimmter Wert" ist, also z.B. sobald mind X, ist eine bestimmte Einheit relevant
+- TODO: Calculate Relations (e.g. how often a 80 year old has lived) and
+print how long video is watched in appropriate additonal Unit 
+(e.g. 80-year-old).
+
 '''
 
 from datetime import timedelta
