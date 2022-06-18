@@ -22,10 +22,10 @@ import sys
 
 # The welcome text is displayed.
 print(
-    "FOR HOW LONG A VIDEO OR SONG HAS BEEN PLAYED",
-    "Many videos and songs have been played millions of times.",
+    "FOR HOW LONG A VIDEO OR SONG HAS BEEN PLAYED\n",
+    "Many videos and songs have been played millions of times.\n",
     "But for how long has each been played (e.g. weeks/months/years)",
-    "if each time counts?",
+    "if each time counts?\n",
     "This calculator enables you to find it out!")
 
 while True:
