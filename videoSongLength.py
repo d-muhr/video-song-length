@@ -21,10 +21,12 @@ import pyinputplus as pyip
 import sys
 
 # The welcome text is displayed.
-print('''FOR HOW LONG A VIDEO OR SONG HAS BEEN PLAYED
-Many videos and songs have been played millions of times. But for how long has each been played (e.g. weeks/months/years) if each time counts?
-This calculator enables you to find it out!
-''')
+print(
+    "FOR HOW LONG A VIDEO OR SONG HAS BEEN PLAYED",
+    "Many videos and songs have been played millions of times.",
+    "But for how long has each been played (e.g. weeks/months/years)",
+    "if each time counts?",
+    "This calculator enables you to find it out!")
 
 while True:
     # The user gives information about the song/video.
@@ -33,7 +35,9 @@ while True:
         max=9999999999999999,
         prompt='How many times has the video or song been played? Please type the number (e.g. "1000") and press Enter >>> ')
 
-    print("How long is the video or song? Please type the number of hours, minutes and seconds.")
+    print(
+        "How long is the video or song?",
+        "Please type the number of hours, minutes and seconds.")
 
     input_hours = pyip.inputInt(min=0, max=100, prompt='number of hours: >>> ')
     input_minutes = pyip.inputInt(
